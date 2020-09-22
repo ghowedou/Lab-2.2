@@ -1,5 +1,6 @@
 import numpy as np
 from array import *
+from PyAstronomy.pyasl import planck
 
 arrtemp = array('i',[])
 
@@ -22,4 +23,7 @@ for q in range(m):
 print(arrfreq)
 
 def planck(n,m):
-    
+    for (i,q) in range(n,m):
+        planck(arrtemp,arrfreq)
+        print(planck)
+    return 
