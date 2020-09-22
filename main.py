@@ -21,3 +21,5 @@ for q in range(m):
 
 print(arrfreq)
 
+def planck(n,m):
+    
