@@ -20,3 +20,4 @@ for q in range(m):
     arrfreq.append(freq)
 
 print(arrfreq)
+
